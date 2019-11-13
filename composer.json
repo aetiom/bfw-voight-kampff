@@ -2,7 +2,7 @@
     "name": "aetiom/bfw-voight-kampff",
     "type": "library",
     "description": "Voight-Kampff captcha module for BFW",
-    "keywords": ["captcha", voight-kampff, "module", "bfw"],
+    "keywords": ["captcha", "voight-kampff", "module", "bfw"],
     "homepage": "https://github.com/aetiom/bfw-voight-kampff",
     "time": "2019-11-13",
     "license": "LGPL-3.0",
