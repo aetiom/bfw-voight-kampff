@@ -2,19 +2,21 @@
 
 namespace BfwVoightKampff\Helpers;
 
-class Form
+class BfwForm implements \BfwForm\Helpers\Data\DataInterface
 {
     /**
      * Validate URL type value
      * 
-     * @param string $value : URL to validate
+     * @param string $value   : captcha id to validate
+     * @param array  $options : not used, let empty
+     * 
      * @return bool true if valid, false otherwise
      */
-    static public function validate(string $id)
+    static public function validate(string $value, $options = [])
     {
         $app = \BFW\Application::getInstance();
         $bfwVoightKampff = $app->getModuleList()->getModuleByName('bfw-voight-kampff');
 
-        return $bfwVoightKampff->verifyCaptcha($id);
+        return $bfwVoightKampff->verifyCaptcha($value);
     }
 }
