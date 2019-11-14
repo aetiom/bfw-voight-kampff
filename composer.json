@@ -22,5 +22,10 @@
         "bulton-fr/bfw": "~3.0.0-RC11@RC",
         "aetiom/php-utils": "dev-dev",
         "aetiom/voight-kampff": "1.1.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aetiom\\BfwVoightKampff\\": "src/"
+        }
     }
 }
