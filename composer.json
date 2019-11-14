@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Aetiom\\BfwVoightKampff\\": "src/"
+            "BfwVoightKampff\\": "src/"
         }
     }
 }
